@@ -1,8 +1,8 @@
-const Hero = () => {
+const Hero = ({ title, subtitle }) => {
   return (
     <div>
-      <h1>CUBE</h1>
-      アウトプットしていくサイト
+      <h1>{title}</h1>
+      {subtitle}
     </div>
   )
 }
