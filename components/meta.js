@@ -12,7 +12,8 @@ const {
   siteIcon
 } = siteMeta
 
-// 汎用OGP画像
+/* 汎用OGP画像 */
+/* eslint-disable import/first */
 import siteImg from 'images/ogp.jpg'
 
 const Meta = ({ pageTitle, pageDesc, pageImg, pageImgW, pageImgH }) => {
